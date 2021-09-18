@@ -1,6 +1,5 @@
 // SCALAR TYPES
 // Integer types and Floating point types
-
 fn main() {
     let a = 2; // u8
     let b = 3; // i8
@@ -10,7 +9,6 @@ fn main() {
 }
 
 // Numeric operations
-
 fn main() {
     // addition
     let sum = 5 + 10;
@@ -79,4 +77,12 @@ let second = a[1];
 }
 // If we wanted access a[5] it would compile but it would also panic in runtime
 
+//Functions
 
+fn main() {
+println!("Hello, world!");
+another_function();
+}
+fn another_function() {
+println!("Another function.");
+}
