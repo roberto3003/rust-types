@@ -71,5 +71,12 @@ let a = [1, 2, 3, 4, 5];
 let months = ["January", "February", "March", "April", "May", "June", "July",
 "August", "September", "October", "November", "December"];
 
+// Accessing array elements
+fn main() {
+let a = [1, 2, 3, 4, 5];
+let first = a[0];
+let second = a[1];
+}
+// If we wanted access a[5] it would compile but it would also panic in runtime
 
 
