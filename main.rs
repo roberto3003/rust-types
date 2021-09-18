@@ -23,3 +23,18 @@ fn main() {
     // remainder
     let remainder = 43 % 5;
 }
+
+// The Boolean type
+
+fn main() {
+    let t = true;
+    let f: bool = false; // with explicit type annotation
+}
+
+// The Character type
+
+fn main() {
+    let c = 'z';
+    let z = 'Ƶ';
+    let heart_eyed_cat = '😻';
+}
