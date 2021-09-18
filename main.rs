@@ -38,3 +38,38 @@ fn main() {
     let z = 'Ƶ';
     let heart_eyed_cat = '😻';
 }
+
+// COMPOUND TYPES
+// The Tuple type
+
+fn main() {
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+}
+
+// To turn it into three separate variables: Destructuring
+
+fn main() {
+    let tup = (500, 6.4, 1);
+    let (x, y, z) = tup;
+    println!("The value of y is: {}", y);
+}
+
+// Access a tuple element without destructuring
+
+fn main() {
+    let x: (i32, f64, u8) = (500, 6.4, 1);
+    let five_hundred = x.0;
+    let six_point_four = x.1;
+    let one = x.2;
+}
+
+// Array type (One type and fixed lenght)
+fn main() {
+let a = [1, 2, 3, 4, 5];
+}
+// Example
+let months = ["January", "February", "March", "April", "May", "June", "July",
+"August", "September", "October", "November", "December"];
+
+
+
